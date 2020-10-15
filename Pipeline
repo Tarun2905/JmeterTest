@@ -1,4 +1,4 @@
 node {
   stage 'Run JMeter Test'
-   'C:\JMETER\apache-jmeter-5.3\bin\Jmeter.bat -n -t C:\GITTest\OTTPlatform.jmx -l test.jtl'
+  cmd 'C:\JMETER\apache-jmeter-5.3\bin\Jmeter.bat -n -t C:\GITTest\OTTPlatform.jmx -l test.jtl'
 }

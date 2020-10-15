@@ -1,4 +1,4 @@
 node {
   stage 'Run JMeter Test'
-  sh '/home/ubuntu/apache-jmeter-3.1/bin/jmeter.sh -n -t /home/ubuntu/Jenkins_demo1.jmx -l test.jtl'
+   'C:\JMETER\apache-jmeter-5.3\bin\Jmeter.bat' -n -t C:\GITTest\OTTPlatform.jmx -l test.jtl'
 }

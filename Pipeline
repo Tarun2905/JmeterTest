@@ -1,4 +1,7 @@
 node {
-  stage 'Run JMeter Test'
- sh 'mkdir C:\\TataSky\\TA_Proxy_HTML_Test'
+    sh 'ls -l'
+    dir ('C:\\TataSky\\TA_Proxy_HTML_Test') {
+        writeFile file:'dummy', text:''
+    }
+    sh 'ls -l'
 }

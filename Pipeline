@@ -1,1 +1,3 @@
- 'mkdir C:\\TataSky\\TA_Proxy_HTML_Test'
+stage "stage name" {
+   'mkdir C:\\TataSky\\TA_Proxy_HTML_Test'
+}

@@ -1,3 +1,5 @@
-node {
-    dir 'C:\\TataSky\\TA_Proxy_HTML_Test'
+  node {
+dir ('C:\\TataSky\\TA_Proxy_HTML_Test'){
+writeFile file:'dummy', text:''
+}
 }

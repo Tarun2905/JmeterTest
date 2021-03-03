@@ -1,2 +1,4 @@
-stage "stage name"
-   'mkdir C:\\TataSky\\TA_Proxy_HTML_Test'
+node {
+  stage '"Run JMeter Test"
+  'mkdir C:\\TataSky\\TA_Proxy_HTML_Test'
+}

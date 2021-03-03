@@ -1,6 +1,6 @@
 node {
   stage "Run JMeter Test"
   {
-  'mkdir C:\\TataSky\\TA_Proxy_HTML_Test'
+  'mkdir C:\\TataSky\\TA_Proxy_HTML_Test';
   }
 }
